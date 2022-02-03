@@ -1,10 +1,14 @@
 package principal;
 
-public class PesoAlturaC implements Cloneable {
+public class PesoAlturaC {
 
     private double peso;
     private int altura;
 
+    public PesoAlturaC(double peso, int altura) {
+        this.altura = altura;
+        this.peso = peso;
+    }
 
     public double getPeso() {
         return peso;
