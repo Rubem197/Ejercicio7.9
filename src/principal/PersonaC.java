@@ -6,8 +6,8 @@ public class PersonaC implements Cloneable {
     private String DNI;
     PesoAlturaC pesoAltura;
 
-    public PersonaC(int edad){
-        this.edad=edad;
+    public PersonaC(int edad) {
+        this.edad = edad;
     }
 
     public PersonaC clone() {
